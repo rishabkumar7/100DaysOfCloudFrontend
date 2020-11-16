@@ -28,6 +28,11 @@ export default function Header(props) {
                             Leaderboard
                         </a>
                     </Link>
+                    <Link href='/job'>
+                        <a className='ml-10 text-xl hover:underline'>
+                            Job Board
+                        </a>
+                    </Link>
                     <Link href='/rules'>
                         <a className='ml-10 text-xl hover:underline'>Rules</a>
                     </Link>
